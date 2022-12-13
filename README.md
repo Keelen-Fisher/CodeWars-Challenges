@@ -13,3 +13,5 @@
 3. [Parity Outlier](ParityOutlier/parity.md)
 
 4. [Perimeter of squares in a rectangle](perimSquareRectangle/perim.md)
+
+5. [Scramblies](Scramblies/scramblies.js)
