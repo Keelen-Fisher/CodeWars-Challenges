@@ -9,3 +9,7 @@
 1. [ROT13 Function Cipher](ROT13Cipher/cipher.md)
 
 2. [Bouncing Balls](BouncingBalls/bouncing.md)
+
+3. [Parity Outlier](ParityOutlier/parity.md)
+
+4. [Perimeter of squares in a rectangle](perimSquareRectangle/perim.md)
