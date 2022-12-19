@@ -15,3 +15,5 @@
 4. [Perimeter of squares in a rectangle](perimSquareRectangle/perim.md)
 
 5. [Scramblies](Scramblies/scramblies.js)
+
+6. [String To Integer (parseInt() reloaded)](StringToInteger/parse.md)
