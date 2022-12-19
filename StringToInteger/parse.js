@@ -46,10 +46,13 @@ function complexValue(numbers){
   numbers = numbers.filter(v => v !== 'and');
 
   for(let i = 0, l = numbers.length; i < l;){
+   /* Checking if the next number is a hundred, thousand or million. */
     if (numbers[i + 1] && ['hundred', 'thousand', 'million'].includes(numbers[i + 1])){
+      /* Assigning the value of the next number to a variable. */
       let v = numbers[i + 1];
   
       if(v === 'hundred'){
+        /* Multiplying the value of the current number by the value of the next number. */
         result += numbersObj[numbers[i]] * numbersObj[numbers[i + 1]]; 
       }
 
@@ -62,10 +65,12 @@ function complexValue(numbers){
       continue;
     }
     else if(numbers[i] === 'thousand'){
+     /* Multiplying the result by 1000. */
       result = result * numbersObj['thousand'];
     }
     else{
-      res += simpleValue(numbers[i]);
+      /* Adding the value of the current number to the result. */
+      result += simpleValue(numbers[i]);
     }
     i += 1; 
   }
@@ -73,6 +78,7 @@ function complexValue(numbers){
 }
 
 function parseInt(string){
+  /* Splitting the string into an array of words. */
   const numbers = string.split(' ');
 
   return numbers.length === 1 ? simpleValue(numbers[0]) : complexValue(numbers);
