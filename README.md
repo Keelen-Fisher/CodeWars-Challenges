@@ -17,3 +17,5 @@
 5. [Scramblies](Scramblies/scramblies.js)
 
 6. [String To Integer (parseInt() reloaded)](StringToInteger/parse.md)
+
+7. 
