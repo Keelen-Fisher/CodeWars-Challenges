@@ -19,3 +19,5 @@
 6. [String To Integer (parseInt() reloaded)](StringToInteger/parse.md)
 
 7. [Human readable duration format](HumanReadable/readable.md)
+
+8. [The Observed PIN]()
