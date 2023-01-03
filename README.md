@@ -20,4 +20,6 @@
 
 7. [Human readable duration format](HumanReadable/readable.md)
 
-8. [The Observed PIN]()
+8. [The Observed PIN](PIN/pin.md)
+
+9. [Validate Sudoku with size `NxN`](Sudoku/sudoku.md)
