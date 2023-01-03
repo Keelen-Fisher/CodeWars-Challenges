@@ -23,3 +23,5 @@
 8. [The Observed PIN](PIN/pin.md)
 
 9. [Validate Sudoku with size `NxN`](Sudoku/sudoku.md)
+
+10. [Connect Four](Connect4/connect4.md)
