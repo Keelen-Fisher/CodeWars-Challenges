@@ -2,7 +2,7 @@
 
 ## Given a Sudoku data structure with size `NxN, N > 0 and √N == integer`, write a method to validate if it has been filled out correctly
 
-### The data structure is a multi-dimensional Array, i.e:
+### The data structure is a multi-dimensional Array, i.e
 
       [
         [7,8,4,  1,5,9,  3,2,6],

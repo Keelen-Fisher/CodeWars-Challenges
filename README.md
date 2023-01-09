@@ -25,3 +25,5 @@
 9. [Validate Sudoku with size `NxN`](Sudoku/sudoku.md)
 
 10. [Connect Four](Connect4/connect4.md)
+
+11. [Sudoku Solver](Sudoku2/sudoku2.md)
